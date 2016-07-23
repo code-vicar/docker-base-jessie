@@ -1,5 +1,3 @@
-# Docker dev tools
+#  Base image
 
-Docker image to facilitate docker development workflows
-
-Creates an image that includes node npm and gulp
+Creates a base image with gosu and dumb-init installed and an entrypoint file prepared

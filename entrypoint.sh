@@ -1,4 +1,4 @@
 #!/bin/dumb-init /bin/sh
 set -e
 
-exec gosu devtools "$@"
+exec gosu $GOSU_USER "$@"
